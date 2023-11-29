@@ -152,4 +152,46 @@ body::before {
     z-index: -1;
 }
 
-
+@media screen and (max-width: 576px){
+	body{
+		width: 80%;
+	}
+	
+	.loginheader{
+		width: 100px;
+	}
+	
+	.logininput{
+		width: 100%;
+	}
+	
+	.emailInput, .passwordInput{
+		padding-top: 3%;
+	}
+	
+	.email, .password{
+		width: 200px;
+	}
+	
+	.passwordInput label{
+		padding-top: 3%;
+	}
+	
+	.fastlogin{
+		width: 100px;
+		margin-top: 5%;
+	}
+	
+	.fb, .google, .twitter, .apple{
+		width: 100%;
+	}
+	
+	.remember, .remember label{
+		margin-left: 20%;
+	}
+	
+	.loginbutton, .toregister{
+		width: 100%;
+	}
+	
+}
